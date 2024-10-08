@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+:root[data-theme="color-a"] {
+    --color-main: rgb(246, 0, 102);
+    --color-sub: rgb(234, 185, 201);
+    --color-text: #000;
+}
+
+:root[data-theme="color-b"] {
+    --color-main:  rgb(54, 185, 255);
+    --color-sub: rgb(159, 234, 255);
+    --color-text: #000;
+}
+
+:root[data-theme="color-c"] {
+    --color-main: rgb(220, 199, 13);
+    --color-sub: rgb(244, 251, 194);
+    --color-text: #000;
+}
+
+
+body {
+    background-color: var(--color-main);
+    color: var(--color-text);
+}
+
+p {
+    background-color: var(--color-sub);
+}
